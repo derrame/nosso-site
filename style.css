@@ -3,3 +3,45 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+body{
+    margin-left: 16% ;
+}
+header{
+    background-color: gray;
+    display: block;
+    width: 81%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+}
+article{
+    background-color: gainsboro;
+    display: block;
+    width: 60%;
+    height: 800px;
+    float: left;
+    margin: 5px;
+}
+aside{
+    background-color: darkgray;
+    display: block;
+    width: 20%;
+    height: 800px;
+    float: left;
+    margin: 5px;
+}
+footer{
+    background-color: darkgray;
+    display: block;
+    width: 81%;
+    height: 100px;
+    float: left;
+    margin: 5px;
+}
+/* Article */
+article #destaques{
+    background-color: rgb(0, 0, 0);
+    display: block;
+    width: ;
+    height: 100px;
+}
