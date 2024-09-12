@@ -7,7 +7,7 @@ body{
     margin-left: 16% ;
 }
 header{
-    background-color: gray;
+    background-color: rgb(61, 61, 61);
     display: block;
     width: 81%;
     height: 200px;
@@ -23,10 +23,10 @@ article{
     margin: 5px;
 }
 aside{
-    background-color: darkgray;
+    background-color:rgb(61, 61, 61) ;
     display: block;
     width: 20%;
-    height: 800px;
+    height: 810px;
     float: left;
     margin: 5px;
 }
@@ -45,3 +45,75 @@ article #destaques{
     width: ;
     height: 100px;
 }
+
+/*faixa da header*/
+header #faixa {
+display: block;
+background-color: black;
+width: 100%;
+margin-top: 165px;
+height: 35px;
+
+}
+
+/*blocos dentro do aside*/
+
+aside .blocoside #topblock {
+
+width: 90%;
+height: 35px;
+background-color: white;
+display: block;
+margin: 5%;
+
+}
+
+aside .blocoside #maislidos {
+
+width: 90%;
+height: 210px;
+background-color: white;
+display: block;
+margin: 5%;
+
+
+}
+
+
+aside .blocoside #maislidos #faixapreta {
+
+width: 100%;
+background-color: black;
+height: 35px;
+color: white;
+
+
+}
+
+aside .blocoside #maislidos #faixapreta h3 {
+
+margin: 5%;
+position: relative;
+margin-top: 10px;
+
+
+}
+
+aside .blocoside #maislidos .listinha {
+
+margin-left: 15%;
+margin-top: 5%;
+
+
+}
+
+aside .blocoside #bloquinhos {
+
+margin: 5%;
+display: block;
+background-color: white;
+width: 90%;
+height: 300px;
+
+}
+
