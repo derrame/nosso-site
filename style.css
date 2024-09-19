@@ -6,14 +6,7 @@
 body{
     margin-left: 16% ;
 }
-header{
-    background-color: rgb(128, 128, 128);
-    display: block;
-    width: 81%;
-    height: 200px;
-    float: left;
-    margin: 5px;
-}
+
 article{
     background-color: transparent;
     display: block;
@@ -22,14 +15,7 @@ article{
     float: left;
     margin: 5px;
 }
-aside{
-    background-color: darkgray;
-    display: block;
-    width: 25%;
-    height: 610px;
-    float: left;
-    margin: 5px;
-}
+
 footer{
     background-color: rgb(61, 61, 61);
     display: block;
@@ -170,9 +156,18 @@ button{
     font-weight: 900;
 }
 
+#botaodestaques{
+    margin-top: 40px;
+    margin-left: 45%;
+    background-color: rgb(0, 16, 70);
+    color: white;
+    font-weight: 900;
+}
+
 p#textinho{
     display: block;
-    height: 50px;
+    height: 70px;
+    width: 90%;
 }
 
 ul{
@@ -184,4 +179,11 @@ ul{
 
 h1{
     font-weight: bolder;
+}
+
+div#footer{
+    margin-top: 5px;
+    text-align: center;
+    font-size: smaller;
+    color: gainsboro;
 }
